@@ -1,5 +1,5 @@
 //
-//  Category.swift
+//  Product.swift
 //  Shopping_App_iOS
 //
 //  Created by Sai Raghu Varma Kallepalli on 23/7/20.
@@ -8,14 +8,16 @@
 
 import Foundation
 
-struct Category {
+struct Product {
     
-    private (set) public var title: String
     private (set) public var image: String
+    private (set) public var label: String
+    private (set) public var price: String
     
-    init(title: String, image: String) {
-        self.title = title
+    init(image: String, label: String, price: String) {
         self.image = image
+        self.label = label
+        self.price = price
     }
     
 }
