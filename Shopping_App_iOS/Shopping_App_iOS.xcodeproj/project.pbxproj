@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8033891624C91A0A003187A5 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033891524C91A0A003187A5 /* CustomCollectionViewCell.swift */; };
 		8033891824C91B22003187A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033891724C91B22003187A5 /* Product.swift */; };
+		8033891A24C93C02003187A5 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033891924C93C02003187A5 /* ProductVC.swift */; };
 		80554C5124C8E5CB007A33BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C5024C8E5CB007A33BC /* AppDelegate.swift */; };
 		80554C5324C8E5CB007A33BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C5224C8E5CB007A33BC /* SceneDelegate.swift */; };
 		80554C5524C8E5CB007A33BC /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C5424C8E5CB007A33BC /* CategoryVC.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		8033891524C91A0A003187A5 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		8033891724C91B22003187A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8033891924C93C02003187A5 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		80554C4D24C8E5CB007A33BC /* Shopping_App_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping_App_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80554C5024C8E5CB007A33BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80554C5224C8E5CB007A33BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				80554C5424C8E5CB007A33BC /* CategoryVC.swift */,
+				8033891924C93C02003187A5 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				80554C5124C8E5CB007A33BC /* AppDelegate.swift in Sources */,
 				80554C6824C8E86A007A33BC /* CustomTableViewCell.swift in Sources */,
 				80554C5324C8E5CB007A33BC /* SceneDelegate.swift in Sources */,
+				8033891A24C93C02003187A5 /* ProductVC.swift in Sources */,
 				80554C6B24C8EF01007A33BC /* DataService.swift in Sources */,
 				80554C6D24C8EF40007A33BC /* Category.swift in Sources */,
 			);

@@ -44,13 +44,13 @@ class DataService {
     
     func getProductByCategory(category: String) -> [Product] {
         switch category {
-        case "Shirt":
+        case "SHIRTS":
             return getShirts()
-        case "Hoodies":
+        case "HOODIES":
             return getHoodies()
-        case "Hats":
+        case "HATS":
             return getHats()
-        case "Digital":
+        case "DIGITAL":
             return getHats()
         default:
             return digitalGoods
